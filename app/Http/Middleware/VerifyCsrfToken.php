@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        //
+        '*', // Bebaskan semua endpoint dari verifikasi CSRF (AMAN untuk DEMO SAJA)
     ];
 }
